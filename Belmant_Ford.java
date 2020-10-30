@@ -1,4 +1,5 @@
-
+// Alumno: Sebastián Hermosa Cáceres
+// Código: 20182701 - Sección: 602
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
