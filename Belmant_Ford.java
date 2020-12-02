@@ -94,7 +94,10 @@ class Grafo {
                     grafo.arista[i].peso=carga;
                 }
 
-		grafo.BellmanFord(grafo, 0); 
+		final long start = System.nanoTime();
+		grafo.BellmanFord(grafo, 0);
+                final long end = System.nanoTime();
+                System.out.println("El tiempo fue de : " + ((end - start)/10000) + "ms");
 	} 
 } 
 
